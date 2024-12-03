@@ -1,0 +1,128 @@
+.
+├── App.tsx
+├── README.md
+├── app
+│   ├── _layout.tsx
+│   └── index.tsx
+├── app-example
+│   ├── app
+│   │   ├── (tabs)
+│   │   │   ├── _layout.tsx
+│   │   │   ├── explore.tsx
+│   │   │   └── index.tsx
+│   │   ├── +not-found.tsx
+│   │   └── _layout.tsx
+│   ├── components
+│   │   ├── Collapsible.tsx
+│   │   ├── ExternalLink.tsx
+│   │   ├── HapticTab.tsx
+│   │   ├── HelloWave.tsx
+│   │   ├── ParallaxScrollView.tsx
+│   │   ├── ThemedText.tsx
+│   │   ├── ThemedView.tsx
+│   │   ├── __tests__
+│   │   │   ├── ThemedText-test.tsx
+│   │   │   └── __snapshots__
+│   │   │       └── ThemedText-test.tsx.snap
+│   │   └── ui
+│   │       ├── IconSymbol.ios.tsx
+│   │       ├── IconSymbol.tsx
+│   │       ├── TabBarBackground.ios.tsx
+│   │       └── TabBarBackground.tsx
+│   ├── constants
+│   │   └── Colors.ts
+│   ├── hooks
+│   │   ├── useColorScheme.ts
+│   │   ├── useColorScheme.web.ts
+│   │   └── useThemeColor.ts
+│   └── scripts
+│       └── reset-project.js
+├── app.json
+├── assets
+│   ├── fonts
+│   │   └── SpaceMono-Regular.ttf
+│   └── images
+│       ├── adaptive-icon.png
+│       ├── favicon.png
+│       ├── icon.png
+│       ├── partial-react-logo.png
+│       ├── react-logo.png
+│       ├── react-logo@2x.png
+│       ├── react-logo@3x.png
+│       └── splash-icon.png
+├── babel.config.js
+├── expo-env.d.ts
+├── index.ts
+├── package-lock.json
+├── package.json
+├── src
+│   ├── components
+│   │   ├── auth
+│   │   │   ├── LoginForm.tsx
+│   │   │   └── LoginScreen.tsx
+│   │   ├── chat
+│   │   │   ├── ChatArea.tsx
+│   │   │   ├── ChatHeader.tsx
+│   │   │   ├── ChatInput.tsx
+│   │   │   ├── ChatList.tsx
+│   │   │   ├── Message.tsx
+│   │   │   └── NewChatDialog.tsx
+│   │   ├── settings
+│   │   │   ├── PhotoContextMenu.tsx
+│   │   │   ├── PhotoManagementModal.tsx
+│   │   │   ├── ProfilePhoto.tsx
+│   │   │   ├── ProfileSection.tsx
+│   │   │   ├── SettingsGroup.tsx
+│   │   │   ├── SettingsItem.tsx
+│   │   │   └── UnifiedProfileModal.tsx
+│   │   └── ui
+│   │       ├── Button.tsx
+│   │       ├── EmptyState.tsx
+│   │       ├── Header.tsx
+│   │       ├── IconButton.tsx
+│   │       ├── Input.tsx
+│   │       ├── LoadingSpinner.tsx
+│   │       └── Modal.tsx
+│   ├── constants
+│   │   ├── colors.ts
+│   │   └── theme.ts
+│   ├── hooks
+│   │   ├── useAppState.ts
+│   │   ├── useChat.ts
+│   │   ├── useImagePicker.ts
+│   │   ├── useKeyboard.ts
+│   │   ├── useOnlineStatus.ts
+│   │   └── useTheme.ts
+│   ├── navigation
+│   │   └── index.tsx
+│   ├── screens
+│   │   ├── auth
+│   │   │   └── LoginScreen.tsx
+│   │   ├── chat
+│   │   │   └── ChatScreen.tsx
+│   │   └── settings
+│   │       └── SettingsScreen.tsx
+│   ├── services
+│   │   ├── api
+│   │   │   └── database.ts
+│   │   └── firebase
+│   │       └── config.ts
+│   ├── stores
+│   │   ├── useAuthStore.ts
+│   │   ├── useChatStore.ts
+│   │   └── useSettingsStore.ts
+│   ├── types
+│   │   ├── auth.ts
+│   │   ├── chat.ts
+│   │   ├── index.ts
+│   │   ├── navigation.ts
+│   │   └── theme.ts
+│   └── utils
+│       ├── error.ts
+│       ├── file.ts
+│       ├── format.ts
+│       └── validation.ts
+├── tree.txt
+└── tsconfig.json
+
+34 directories, 92 files
